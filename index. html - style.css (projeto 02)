@@ -1,0 +1,520 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 02 - Landing Page</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/74f5d82ab4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="secao-inicial">
+        <header>
+            <nav class="wrapper flex">
+                <a href="#">
+                    <h3 id="logo">Projeto Landing Page</h3>
+                </a>
+                <div id="links-secoes">
+                    <a href="#">seção 1</a>
+                    <a href="#">seção 2</a>
+                </div>
+                <a href="#" class="btn btn_menu">botão</a>
+            </nav>
+        </header>
+        <section id="conteudo-inicial">
+            <div class="wrapper flex">
+                <div id="conteudo-esq">
+                    <h1>Lorem ipsum <br> dolor sit amet!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">entre em contato</a>
+                </div>
+                <img id="imagem-1"src="./IMG/img1.svg" alt="Desenho de uma pessoa com notebook apoiado na perna, segurando uma flor azul perto de uma janela que é possível ver prédios, do lado de um armário pequeno que em cima dele tem um vaso de flores azuis e ao lado do vaso tem duas velas">
+            </div>
+        </section>
+    </div>
+    <main>
+        <section id="secao-artigos">
+            <h2>Artigos</h2>
+            <div class="wrapper flex">
+                <section id="artigos-principais">
+                    <h3>Gostamos muito de Lorem Ipsum!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptatibus consectetur numquam doloribus obcaecati, nihil, quis vero iste iure aut consequuntur hic exercitationem illum illo rem aspernatur quidem provident ab.</p>
+                    <div id="cards" class="flex">
+                        <article class="card">
+                            <header class="cabecalho_card flex">
+                                <p>09 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <div class="conteudo_card">
+                                <h4>Card 1</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ea aut itaque voluptate quos quae obcaecati dolor debitis, maxime, adipisci beatae illo quas harum perspiciatis eum iusto voluptatem. Corrupti, quaerat?</p>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <header class="cabecalho_card flex">
+                                <p>09 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <div class="conteudo_card">
+                                <h4>Card 2</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ea aut itaque voluptate quos quae obcaecati dolor debitis, maxime, adipisci beatae illo quas harum perspiciatis eum iusto voluptatem. Corrupti, quaerat?</p>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <header class="cabecalho_card flex">
+                                <p>09 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <div class="conteudo_card">
+                                <h4>Card 3</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ea aut itaque voluptate quos quae obcaecati dolor debitis, maxime, adipisci beatae illo quas harum perspiciatis eum iusto voluptatem. Corrupti, quaerat?</p>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <header class="cabecalho_card flex">
+                                <p>09 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <div class="conteudo_card">
+                                <h4>Card 4</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ea aut itaque voluptate quos quae obcaecati dolor debitis, maxime, adipisci beatae illo quas harum perspiciatis eum iusto voluptatem. Corrupti, quaerat?</p>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <header class="cabecalho_card flex">
+                                <p>09 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <div class="conteudo_card">
+                                <h4>Card 5</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ea aut itaque voluptate quos quae obcaecati dolor debitis, maxime, adipisci beatae illo quas harum perspiciatis eum iusto voluptatem. Corrupti, quaerat?</p>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <header class="cabecalho_card flex">
+                                <p>09 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <div class="conteudo_card">
+                                <h4>Card 6</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ea aut itaque voluptate quos quae obcaecati dolor debitis, maxime, adipisci beatae illo quas harum perspiciatis eum iusto voluptatem. Corrupti, quaerat?</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <aside id="artigos-destaque">
+                    <h3>Lorem ipsum em destaque</h3>
+                    <div id="cards-destaque">
+                        <article class="card_destaque">
+                            <header class="cabecalho_card flex">
+                                <p>10 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <h4>Card 5</h4>
+                        </article>
+                        <article class="card_destaque">
+                            <header class="cabecalho_card flex">
+                                <p>10 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <h4>Card 6</h4>
+                        </article>
+                        <article class="card_destaque">
+                            <header class="cabecalho_card flex">
+                                <p>10 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <h4>Card 7</h4>
+                        </article>
+                        <article class="card_destaque">
+                            <header class="cabecalho_card flex">
+                                <p>10 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <h4>Card 8</h4>
+                        </article>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+    <section id="secao-final">
+        <div class="wrapper">
+            <div id="conteudo-final" class="flex">
+                <div id="conteudo-final-textos">
+                    <h2>Lorem ipsum dolor sit amet!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corrupti deserunt ratione earum sapiente, a itaque harum nostrum voluptatibus sint, exercitationem maiores provident possimus et totam? Eaque tempore aliquid dolorum?</p>
+                </div>
+                <img id="imagem-2" src="./IMG/img2.svg" alt="">
+            </div>
+            <a href="#" class="btn btn_final">entre em contato</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Todos os direitos reservados ao lorem.</p>
+    </footer>
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+style.css
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito:wght@600;700;800&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Embrulho/Wrapper */
+.wrapper {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    font-family: 'Lexend Deca';
+    color: #EA0F78;
+    background-color: #fff;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: block;
+    width: fit-content;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Estilo Seção Inicial */
+#secao-inicial {
+    padding: 32px 0;
+    color: #fff;
+    background: linear-gradient(90deg, #D83482 0%, #EC0A76 100%);
+}
+
+/* Menu */
+#logo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#links-secoes {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+}
+
+#links-secoes>a {
+    padding: 10px 15px;
+}
+
+#links-secoes>a:hover {
+    text-decoration: underline;
+}
+
+.btn_menu {
+    font-size: 16px;
+}
+
+/* Banner */
+#conteudo-inicial {
+    margin-top: 64px;
+}
+
+#conteudo-esq {
+    width: 40%;
+}
+
+#conteudo-esq>h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+}
+
+#conteudo-esq>p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    margin: 10px 0 32px;
+}
+
+#imagem-1 {
+    max-width: 569px;
+    width: 45%;
+    min-width: 440px;
+}
+
+/* Estilo Seção Artigos (Título + artigos principais + artigos em destaque) */
+/* Geral da Seção */
+#secao-artigos {
+    background-color: #f3f5f7;
+    padding: 64px 0;
+}
+
+#secao-artigos>h2, #conteudo-final-textos>h2 {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #313131;
+    margin-bottom: 32px;
+}
+
+/* Artigos principais */
+#artigos-principais {
+    width: 65%;
+}
+
+#artigos-principais>h3, #artigos-destaque>h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #313131;
+}
+
+#artigos-principais>p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    color: #b6b6b6;
+    margin: 10px 0 32px;
+}
+
+#cards {
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 48%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.cabecalho_card {
+    margin-bottom: 20px;
+}
+
+.cabecalho_card>p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    color: #b6b6b6;
+}
+
+.cabecalho_card {
+    color: #ea2181;
+    font-size: 25px;
+}
+
+.conteudo_card>h4, .card_destaque>h4 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ea2181;
+    margin-bottom: 5px;
+}
+
+.conteudo_card>p, #conteudo-final-textos>p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    color: #b6b6b6;
+    line-height: 25px;
+}
+
+/* Artigos destaque*/
+#artigos-destaque {
+    width: 33%;
+}
+
+#cards-destaque {
+    margin-top: 20px;
+}
+
+.card_destaque {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+#secao-artigos>div {
+    align-items: flex-start;
+}
+
+/* Hover coração preenchido */
+.cabecalho_card>i:hover::before {
+    font-family: "Font Awesome 6 Free";
+    content: \f004;
+    font-weight: 900;
+    cursor: pointer;
+    color: #EFCC6B;
+}
+
+/* Estilo Seção Artigos + Rodapé */
+/* Seção Final */
+
+#secao-final {
+    background-color: #eceef0;
+    padding: 64px 0;
+}
+
+#conteudo-final-textos {
+    width: 45%;
+}
+
+#conteudo-final-textos>h2 {
+    text-align: left;
+}
+
+.btn_final {
+    background-color: #ea2181;
+    color: #fff;
+    margin: 32px auto 0;
+}
+
+#imagem-2 {
+    max-width: 552px;
+    width: 40%;
+    min-width: 430px;
+
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #ea2181;
+    background-color: #fff;
+}
+
+
+/* Começo estilos Responsividade*/
+/* 1º width - 110 px */
+@media screen and (max-width: 1100px) {
+    #conteudo-esq>h1 {
+        font-size: 48px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    #conteudo-final-textos>p {
+        font-size: 16px;
+    }
+
+    #conteudo-final-textos>h2 {
+        font-size: 25px;
+    }
+
+}
+
+/* 2º width - 920px */
+@media screen and (max-width: 920px) {
+    #conteudo-esq>h1{
+        font-size: 40px;
+    }
+    .btn, .btn_menu {
+        font-size: 16px;
+    }
+    #secao-artigos > h2{
+        font-size: 25px;
+    }
+    #artigos-principais > h3, #artigos-destaque > h3{
+        font-size: 20px;
+    }
+    #conteudo_card > p{
+        font-size: 16px;
+    }
+    .conteudo_card > h4, .card_destaque > h4{
+        font-size: 18px;
+    }
+}
+/* 3º width - 820px */
+@media screen and (max-width: 820px){
+    #imagem-1{
+        display: none;
+    }
+    #conteudo-esq{
+        width: 65%;
+        text-align: center;
+    }
+    #conteudo-inicial > div{
+        justify-content: center;
+    }
+    #conteudo-esq > .btn{
+        margin: auto;
+    }
+    #conteudo-esq > h1{
+        font-size: 48px;
+    }
+    /* Artigos */
+    #secao-artigos > div{
+        flex-direction: column-reverse;
+    }
+    #artigos-principais, #artigos-destaque{
+        width: 100%;
+    }
+    #artigos-destaque{
+        margin-bottom: 64px;
+    }
+    .card{
+        min-width: 100%;
+    }
+    /* Seção Final */
+    #conteudo-final{
+        flex-direction: column;
+    }
+    #conteudo-final-textos{
+        width: 80%;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    #conteudo-final-textos > h2{
+        text-align: inherit;
+        margin-bottom: 16px;
+    }
+    #imagem-2{
+        width: 60px;
+        min-width: 200px;
+    }
+/* 4 width - 600px */
+@media screen and (max-width: 600px) {
+    #links-secoes{
+        display: none;
+    }
+    #conteudo-esq > h1{
+        font-size: 32px;
+    }
+    #conteudo-esq > p{
+        display: none;
+    }
+    #conteudo-esq{
+        width: 100%;
+    }
+}
